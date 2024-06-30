@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n;
+    cout<<"enter the no"<<endl;
+    cin>>n;
+    char ch='A';
+    i=1;
+    while(i<=n)
+    {
+        j=1;
+        while(j<=n)
+        {
+            cout<<ch;
+            j++;
+        }
+        ch++;
+        cout<<endl;
+        i++;
+    }
+}
